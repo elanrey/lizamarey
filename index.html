@@ -8,21 +8,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" as="image" href="img/surf1.png">
+    <link rel="preload" as="image" href="img/surf2.png">
+    <link rel="preload" as="image" href="img/surf3.png">
+    <link rel="preload" as="image" href="img/surf4.png">
 </head>
 <body class="bg-gray-100 text-gray-800">
 
     <!-- Header -->
     <header id="header" class="fixed top-0 left-0 right-0 z-50 bg-red-500" style="background-color: #e6155e;">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold text-white">Lizamarey</a>
+            <div class="flex items-center">
+                <img src="img/logo_pequeño.png" alt="Logo pequeño" class="w-8 h-8 mr-3">
+                <a href="#" class="text-5xl font-bold text-white" style="font-family: 'Rouge Script', cursive;">lizamarey</a>
+            </div>
             <nav class="hidden md:flex space-x-8">
                 <a href="#" class="text-white hover:text-red-300">Inicio</a>
                 <a href="#" class="text-white hover:text-red-300">Método</a>
                 <a href="#" class="text-white hover:text-red-300">Casos</a>
+                <a href="#" class="text-white hover:text-red-300">Contacto</a>
                 <a href="testimonios.html" class="text-white hover:text-red-300">Testimonios</a>
                 <a href="talleres.html" class="text-white hover:text-red-300">Talleres</a>
-                <a href="#" class="text-white hover:text-red-300">Contacto</a>
+                
             </nav>
             <button id="mobile-menu-button" class="md:hidden text-white">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
@@ -41,19 +51,16 @@
 
     <!-- Hero Section with Carousel -->
     <section class="relative h-screen overflow-hidden">
-        <div class="carousel absolute inset-0">
-            <div class="carousel-inner flex transition-transform duration-1000 h-full">
-                <div style="background-image: url('img/surf1.png'); background-size: cover; background-position: center; background-repeat: no-repeat;" class="w-full flex-none"></div>
-                <div style="background-image: url('img/surf2.png'); background-size: cover; background-position: center; background-repeat: no-repeat;" class="w-full flex-none"></div>
-                <div style="background-image: url('img/surf3.png'); background-size: cover; background-position: center; background-repeat: no-repeat;" class="w-full flex-none"></div>
-                <div style="background-image: url('img/surf4.png'); background-size: cover; background-position: center; background-repeat: no-repeat;" class="w-full flex-none"></div>
+        <div class="carousel absolute inset-0 bg-cover bg-no-repeat transition-opacity duration-1000" style="background-image: url('img/surf1.png');">
+            <div class="absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <p class="text-white text-center text-4xl md:text-5xl font-bold px-4" id="phrase" style="font-family: 'Tangerine', cursive; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">Bríndate la oportunidad de conocerte, evolucionar y desarrollar tu potencial.</p>
             </div>
         </div>
-        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+        <div class="absolute inset-0 flex items-center justify-center">
             <div class="text-center text-white z-10">
-                <h1 class="text-5xl md:text-6xl font-bold mb-4">Transforma tu Vida con Hipnoterapia Clínica</h1>
-                <p class="text-xl md:text-2xl mb-8">Supera tus límites y alcanza tu máximo potencial.</p>
-                <a href="#" class="bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-8 rounded-full transition duration-300">Agenda una Sesión</a>
+                <h1 class="text-5xl md:text-6xl font-bold" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">Transforma tu Vida</h1>
+                <h1 class="text-6xl md:text-8xl font-bold" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">Hipnoterapia Clínica</h1>
+                <p class="text-4xl md:text-4xl font-bold" style="text-shadow: 1px 1px 3px rgba(0,0,0,0.8);">Supera tus límites y alcanza tu máximo potencial</p>
             </div>
         </div>
     </section>
@@ -178,15 +185,38 @@
     <footer class="bg-gray-800 text-white py-10">
         <div class="container mx-auto px-6 text-center">
             <div class="flex justify-center space-x-6 mb-4">
-                <a href="https://wa.me/5651413823" target="_blank" class="hover:text-pink-300">WhatsApp</a>
-                <a href="https://www.linkedin.com/in/lizamarey/" target="_blank" class="hover:text-pink-300">LinkedIn</a>
-                <a href="mailto:elizabeth@lizamarey.com" class="hover:text-pink-300">Email</a>
+                <a href="https://api.whatsapp.com/send?phone=5651413823" target="_blank" class="whatsapp-link hover:text-pink-300">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-3.582 8-8 8a9.865 9.865 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 3.582-8 8-8s8 3.582 8 8z"></path></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/lizamarey/" target="_blank" class="hover:text-pink-300">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554V15c0-1.25-.021-2.854-1.744-2.854-1.745 0-2.011 1.36-2.011 2.765V20.452h-3.554V9.053h3.411v1.473h.048c.474-.897 1.634-1.846 3.361-1.846 3.591 0 4.254 2.361 4.254 5.437V20.452zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9.053h3.564V20.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
+                </a>
+                <a href="mailto:elizabeth@lizamarey.com" class="hover:text-pink-300">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                </a>
             </div>
             <p>&copy; 2025 Lizamarey. Todos los derechos reservados.</p>
         </div>
     </footer>
 
+    <!-- Modal for WhatsApp QR -->
+    <div id="qr-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+            <h3 class="text-2xl font-bold mb-4">Escanear Código QR para WhatsApp</h3>
+            <div id="qrcode" class="mx-auto mb-4" style="max-width: 200px;"></div>
+            <button id="close-modal" class="bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="carousel.js"></script>
     <script src="js/main.js"></script>
+    <!-- Preload images -->
+    <div style="position: absolute; top: -9999px; left: -9999px; width: 1px; height: 1px; overflow: hidden;">
+        <img src="img/surf1.png" alt="">
+        <img src="img/surf2.png" alt="">
+        <img src="img/surf3.png" alt="">
+        <img src="img/surf4.png" alt="">
+    </div>
 
 </body>
 </html>

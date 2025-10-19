@@ -14,7 +14,7 @@ document.querySelectorAll('footer a[href*="api.whatsapp.com"]').forEach(link => 
             window.location.href = 'https://wa.me/5651413823';
         } else {
             const modal = document.getElementById('qr-modal');
-            modal.classList.remove('hidden');
+            modal.style.display = 'flex';
             // Load QR static image
             document.getElementById('qrcode').innerHTML = '<img src="img/qr.png" alt="QR WhatsApp" style="max-width: 200px;">';
         }
@@ -22,7 +22,8 @@ document.querySelectorAll('footer a[href*="api.whatsapp.com"]').forEach(link => 
 });
 
 document.getElementById('close-modal').addEventListener('click', () => {
-    document.getElementById('qr-modal').classList.add('hidden');
+    const modal = document.getElementById('qr-modal');
+    modal.style.display = 'none';
     // Clear QR
     const qr = document.getElementById('qrcode');
     qr.innerHTML = '';

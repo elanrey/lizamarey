@@ -11,11 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preload" as="image" href="img/surf1.png">
-    <link rel="preload" as="image" href="img/surf2.png">
-    <link rel="preload" as="image" href="img/surf3.png">
-    <link rel="preload" as="image" href="img/surf4.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="bg-gray-100 text-gray-800">
@@ -28,11 +23,11 @@
                 <a href="index.html" class="text-4xl font-bold text-white" style="font-family: 'Rouge Script', cursive;">lizamarey</a>
             </div>
             <nav class="hidden md:flex space-x-8">
-                <a href="index.html#contacto" class="text-white hover:text-red-300">Contacto</a>
-                <a href="metodo.html" class="text-white hover:text-red-300">Método</a>
-                <a href="#" class="text-white hover:text-red-300">Casos</a>
-                <a href="testimonios.html" class="text-white hover:text-red-300">Testimonios</a>
-                <a href="talleres.html" class="text-white hover:text-red-300">Talleres</a>
+                <a href="index.html#contacto" class="nav-link">Contacto</a>
+                <a href="metodo.html" class="nav-link">Método</a>
+                <a href="casos.html" class="nav-link">Casos</a>
+                <a href="testimonios.html" class="nav-link">Testimonios</a>
+                <a href="talleres.html" class="nav-link">Talleres</a>
 
             </nav>
             <button id="mobile-menu-button" class="md:hidden text-white">
@@ -43,22 +38,23 @@
         <div id="mobile-menu" class="hidden md:hidden bg-red-500">
             <a href="index.html#contacto" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Contacto</a>
             <a href="metodo.html" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Método</a>
-            <a href="#" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Casos</a>
+            <a href="casos.html" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Casos</a>
             <a href="testimonios.html" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Testimonios</a>
             <a href="talleres.html" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Talleres</a>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="relative h-96 md:h-screen flex items-center justify-center">
-        <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('img/surf2.png');"></div>
-        <div class="relative z-10 text-center text-white">
-            <h1 class="text-6xl md:text-8xl font-bold mb-6" style="font-family: 'Tangerine', cursive; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">Método de Trabajo</h1>
-            <p class="text-3xl md:text-4xl font-light mb-8" style="text-shadow: 1px 1px 3px rgba(0,0,0,0.8); font-family: 'Open Sans', sans-serif;">Transforma tu mente, transforma tu vida</p>
-            <div class="w-24 h-1 bg-primary mx-auto mb-8"></div>
-            <p class="text-lg md:text-xl max-w-2xl mx-auto" style="text-shadow: 1px 1px 3px rgba(0,0,0,0.8);">
-                Descubre cómo la hipnoterapia en línea puede ayudarte a alcanzar tus metas con eficacia y flexibilidad.
-            </p>
+    <section class="relative h-64 md:h-96 bg-cover bg-center" style="background-image: url('img/hero.jpg');">
+        <div class="bg-black bg-opacity-50 h-full flex items-center justify-center pt-16 md:pt-0">
+            <div class="text-center text-white">
+                <h1 class="text-6xl md:text-8xl font-bold mb-6" style="font-family: 'Tangerine', cursive; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">Método de Trabajo</h1>
+                <p class="text-3xl md:text-4xl font-light mb-8" style="text-shadow: 1px 1px 3px rgba(0,0,0,0.8); font-family: 'Open Sans', sans-serif;">Transforma tu mente, transforma tu vida</p>
+                <div class="w-24 h-1 bg-primary mx-auto mb-8"></div>
+                <p class="text-lg md:text-xl max-w-2xl mx-auto px-4" style="text-shadow: 1px 1px 3px rgba(0,0,0,0.8);">
+                    Descubre cómo la hipnoterapia en línea puede ayudarte a alcanzar tus metas con eficacia y flexibilidad.
+                </p>
+            </div>
         </div>
     </section>
 

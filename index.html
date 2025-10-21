@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" style="overflow-x: hidden;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,7 +45,7 @@
             </button>
         </div>
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-red-500">
+        <div id="mobile-menu" class="hidden md:hidden bg-primary">
             <a href="#contacto" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Contacto</a>
             <a href="metodo.html" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Método</a>
             <a href="casos.html" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Casos</a>
@@ -55,13 +55,13 @@
     </header>
 
     <!-- Hero Section with Carousel -->
-    <section class="relative h-96 md:h-screen overflow-hidden">
+    <section class="relative h-64 md:h-screen overflow-hidden">
         <div class="carousel absolute inset-0 bg-cover bg-no-repeat transition-opacity duration-1000" style="background-image: url('/img/terapia-desarrollo-personal-evolucion.png');">
             <div class="absolute bottom-0 left-0 right-0 md:top-3/4 md:left-1/2 md:right-auto md:bottom-auto md:transform md:-translate-x-1/2 md:-translate-y-1/3">
                 <p class="text-white text-center text-xl md:text-5xl" id="phrase" style="font-family: 'Vujahday Script', cursive; text-shadow: 1px 1px 2px rgba(0,0,0,1); transition: opacity 0.5s ease-out;">Bríndate la oportunidad de conocerte y desarrollar tu potencial con Hipnoterapia Clínica</p>
             </div>
         </div>
-        <div class="absolute top-1/4 md:top-1/3 left-0 right-0 flex flex-col items-center">
+        <div class="absolute inset-0 flex items-center justify-center md:top-1/4 md:left-0 md:right-0 md:flex-col md:justify-start md:items-center">
             <div class="text-center text-white">
                 <h1 class="text-3xl md:text-6xl font-bold" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">Transforma tu Vida</h1>
                 <h1 class="text-4xl md:text-8xl font-bold" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">Hipnoterapia Clínica</h1>
@@ -148,7 +148,6 @@
                     <p class="text-gray-600 mb-4">Es Miembro fundador y activo de la Asociación Mexicana de Hipnosis Clínica, AMHIC.</p>
                     <p class="text-gray-600 mb-4">Con 38 años de experiencia en el ámbito organizacional, en donde se ha destacado en áreas clave como capacitación, selección y dirección de personal en el Sector Público.</p>
                     <p class="text-gray-600 mb-8">Con 25 años en el área clínica, como psicoterapeuta aplicando enfoques como la Terapia Humanista, Terapia Breve Estratégica, junto con la práctica de la Hipnosis Clínica, para el tratamiento integral de sus pacientes. Se ha desempeñado como psicoterapeuta dentro del Sector Académico de alto nivel y de manera particular atendiendo pacientes en el país y del extranjero con la modalidad OnLine.</p>
-                    <a href="#" class="bg-primary hover:bg-primary text-white font-bold py-3 px-8 rounded-full transition duration-300">Contactar</a>
                 </div>
             </div>
         </div>
@@ -199,7 +198,7 @@
                     <img src="img/logo_pequeño.png" alt="Lizamarey" class="w-8 h-8 mx-2">
                     <p style="font-family: 'Rouge Script', cursive; font-size: 2rem;">lizamarey</p>
                 </div>
-                <div class="flex space-x-6"><p>Supera tus límites y alcanza tu máximo potencial</p></div>
+                <div class="flex space-x-6 hidden md:flex"><p>Supera tus límites y alcanza tu máximo potencial</p></div>
                 <div class="flex space-x-6">
                     <a href="https://api.whatsapp.com/send?phone=5651413823" target="_blank" class="whatsapp-link hover:text-primary">
                         <i class="fab fa-whatsapp fa-lg"></i>

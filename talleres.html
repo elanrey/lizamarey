@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" style="overflow-x: hidden;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body class="bg-gray-100 text-gray-800">
+<body class="bg-gray-100 text-gray-800 flex flex-col min-h-screen">
 
     <!-- Header -->
     <header id="header" class="fixed top-0 left-0 right-0 z-50 bg-primary">
@@ -41,7 +41,7 @@
             </button>
         </div>
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-red-500">
+        <div id="mobile-menu" class="hidden md:hidden bg-primary">
             <a href="index.html#contacto" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Contacto</a>
             <a href="metodo.html" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Método</a>
             <a href="casos.html" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Casos</a>
@@ -50,12 +50,14 @@
         </div>
     </header>
 
+    <main class="flex-grow">
+
     <!-- Hero Section -->
     <section class="bg-cover bg-center h-64 md:h-96" style="background-image: url('img/hero.jpg');">
         <div class="bg-black bg-opacity-50 h-full flex items-center justify-center pt-16 md:pt-0">
             <div class="text-center text-white">
-                <h1 class="text-5xl md:text-8xl font-bold mb-4" style="font-family: 'Rouge Script', cursive;">Talleres</h1>
-                <p class="text-xl md:text-4xl mb-8" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">Desarrolla nuevas habilidades y crece personalmente.</p>
+                <h1 class="text-4xl md:text-7xl font-bold mb-4" style="font-family: 'Rouge Script', cursive;">Talleres</h1>
+                <p class="text-2xl md:text-4xl mb-8" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">Desarrolla nuevas habilidades y crece personalmente.</p>
                 <div class="w-24 h-1 bg-primary mx-auto mb-8"></div>
                 <p class="text-lg md:text-xl max-w-2xl mx-auto px-4" style="text-shadow: 1px 1px 3px rgba(0,0,0,0.8);">
                     Programas de formación y desarrollo personal en grupos reducidos.
@@ -124,6 +126,8 @@
             </div>
         </div>
     </section>
+
+    </main>
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-10">

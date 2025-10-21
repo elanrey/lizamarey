@@ -2,7 +2,7 @@
 const carousel = document.querySelector('.carousel');
 const phraseElement = document.getElementById('phrase');
 
-const slides = ['/img/terapia-desarrollo-personal-evolucion.png', '/img/cambios-plenitud-equilibrio-personal.png', '/img/liberacion-ansiedad-estres.png', '/img/resolucion-conflictos-internos-bloqueos.png'];
+const slides = ['./img/terapia-desarrollo-personal-evolucion.png', './img/cambios-plenitud-equilibrio-personal.png', './img/liberacion-ansiedad-estres.png', './img/resolucion-conflictos-internos-bloqueos.png'];
 const phrases = [
     "Bríndate la oportunidad de conocerte y desarrollar tu potencial con Hipnoterapia Clínica",
     "¿Qué cambios puedes hacer para vivir con más equilibrio y plenitud? Descubre el Método",

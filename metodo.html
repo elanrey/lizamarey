@@ -1,523 +1,416 @@
 <!DOCTYPE html>
 <html lang="es" style="overflow-x: hidden">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Explora el método de trabajo de Elizabeth Reyes Baños en hipnoterapia clínica. Sesiones en línea semanales, enfoque ericksoniano y transformación personal eficaz."
-    />
-    <meta property="og:title" content="Lizamarey - Método de Trabajo" />
-    <meta
-      property="og:description"
-      content="Explora el método de trabajo de Elizabeth Reyes Baños en hipnoterapia clínica. Sesiones en línea semanales, enfoque ericksoniano y transformación personal eficaz."
-    />
-    <meta property="og:image" content="img/logo.png" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="metodo.html" />
-    <title>Lizamarey - Método de Trabajo</title>
-    <link rel="icon" type="image/png" href="img/logo_mini.png" />
-    <link rel="stylesheet" href="css/tailwind.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-  </head>
-  <body class="bg-gray-100 text-gray-800 flex flex-col min-h-screen">
-    <!-- Header -->
-    <header id="header" class="fixed top-0 left-0 right-0 z-50 bg-primary">
-      <div
-        class="container mx-auto px-6 py-4 flex justify-between items-center"
-      >
-        <div class="flex items-center">
-          <img
-            src="img/logo_pequeño.png"
-            alt="Logo pequeño"
-            class="w-8 h-8 mr-3"
-          />
-          <a
-            href="index.html"
-            class="text-4xl font-bold text-white"
-            style="font-family: 'Rouge Script', cursive"
-            >lizamarey</a
-          >
-        </div>
-        <nav class="hidden md:flex space-x-8">
-          <a href="index.html#contacto" class="nav-link">Contacto</a>
-          <a href="metodo.html" class="nav-link">Método</a>
-          <a href="casos.html" class="nav-link">Casos</a>
-          <a href="testimonios.html" class="nav-link">Testimonios</a>
-          <a href="talleres.html" class="nav-link">Talleres</a>
-        </nav>
-        <button id="mobile-menu-button" class="md:hidden text-white">
-          <i class="fas fa-bars fa-lg"></i>
-        </button>
-      </div>
-      <!-- Mobile Menu -->
-      <div id="mobile-menu" class="hidden md:hidden bg-primary">
-        <a
-          href="index.html#contacto"
-          class="block py-2 px-4 text-sm text-white hover:bg-red-700"
-          >Contacto</a
-        >
-        <a
-          href="metodo.html"
-          class="block py-2 px-4 text-sm text-white hover:bg-red-700"
-          >Método</a
-        >
-        <a
-          href="casos.html"
-          class="block py-2 px-4 text-sm text-white hover:bg-red-700"
-          >Casos</a
-        >
-        <a
-          href="testimonios.html"
-          class="block py-2 px-4 text-sm text-white hover:bg-red-700"
-          >Testimonios</a
-        >
-        <a
-          href="talleres.html"
-          class="block py-2 px-4 text-sm text-white hover:bg-red-700"
-          >Talleres</a
-        >
-      </div>
-    </header>
 
-    <main class="flex-grow">
-      <!-- Hero Section -->
-      <section
-        class="relative h-80 md:h-96 bg-cover bg-center"
-        style="background-image: url('img/hero.jpg')"
-      >
-        <div
-          class="bg-black bg-opacity-50 h-full flex items-center justify-center pt-16 md:pt-0"
-        >
-          <div class="text-center text-white">
-            <h1
-              class="text-6xl md:text-8xl font-bold mb-4 mt-12"
-              style="
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Explora el método de trabajo de Elizabeth Reyes Baños en hipnoterapia clínica. Sesiones en línea semanales, enfoque ericksoniano y transformación personal eficaz." />
+  <meta property="og:title" content="Lizamarey - Método de Trabajo" />
+  <meta property="og:description"
+    content="Explora el método de trabajo de Elizabeth Reyes Baños en hipnoterapia clínica. Sesiones en línea semanales, enfoque ericksoniano y transformación personal eficaz." />
+  <meta property="og:image" content="img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="metodo.html" />
+  <title>Lizamarey - Método de Trabajo</title>
+  <link rel="icon" type="image/png" href="img/logo_mini.png" />
+  <link rel="stylesheet" href="css/tailwind.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+
+<body class="bg-gray-100 text-gray-800 flex flex-col min-h-screen">
+  <!-- Header -->
+  <header id="header" class="fixed top-0 left-0 right-0 z-50 bg-primary">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center">
+        <img src="img/logo_pequeño.png" alt="Logo pequeño" class="w-8 h-8 mr-3" />
+        <a href="index.html" class="text-4xl font-bold text-white"
+          style="font-family: 'Rouge Script', cursive">lizamarey</a>
+      </div>
+      <nav class="hidden md:flex space-x-8">
+        <a href="index.html#contacto" class="nav-link">Contacto</a>
+        <a href="metodo.html" class="nav-link">Método</a>
+        <a href="casos.html" class="nav-link">Casos</a>
+        <a href="testimonios.html" class="nav-link">Testimonios</a>
+        <a href="talleres.html" class="nav-link">Talleres</a>
+      </nav>
+      <button id="mobile-menu-button" class="md:hidden text-white">
+        <i class="fas fa-bars fa-lg"></i>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-primary">
+      <a href="index.html#contacto" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Contacto</a>
+      <a href="metodo.html" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Método</a>
+      <a href="casos.html" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Casos</a>
+      <a href="testimonios.html" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Testimonios</a>
+      <a href="talleres.html" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Talleres</a>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+    <!-- Hero Section -->
+    <section class="relative h-80 md:h-96 bg-cover bg-center" style="background-image: url('img/hero.jpg')">
+      <div class="bg-black bg-opacity-50 h-full flex items-center justify-center pt-16 md:pt-0">
+        <div class="text-center text-white">
+          <h1 class="text-6xl md:text-8xl font-bold mb-4 mt-12" style="
                 font-family: 'Tangerine', cursive;
                 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-              "
-            >
-              Método de Trabajo
-            </h1>
-            <p
-              class="text-base md:text-2xl font-light mb-4 mt-4"
-              style="
+              ">
+            Método de Trabajo
+          </h1>
+          <p class="text-base md:text-2xl font-light mb-4 mt-4" style="
                 text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
                 font-family: 'Open Sans', sans-serif;
-              "
-            >
-              Transforma tu mente, mejora tu vida
-            </p>
-            <div class="w-80 h-1 bg-primary mx-auto mb-6"></div>
-            <p
-              class="text-sm md:text-lg max-w-2xl mx-auto px-4"
-              style="text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8)"
-            >
-              Descubre cómo la Hipnoterapia en línea puede ayudarte
-            </p>
-          </div>
+              ">
+            Transforma tu mente, mejora tu vida
+          </p>
+          <div class="w-80 h-1 bg-primary mx-auto mb-6"></div>
+          <p class="text-sm md:text-lg max-w-2xl mx-auto px-4" style="text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8)">
+            Descubre cómo la Hipnoterapia en línea puede ayudarte
+          </p>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Hipnosis Ericksoniana Section -->
-      <section class="py-20 bg-gray-100">
-        <div class="container mx-auto px-6">
-          <div class="text-center mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-              Hipnosis Ericksoniana: Nuestra Herramienta Principal
-            </h2>
-            <div class="w-24 h-1 bg-primary mx-auto"></div>
-          </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div>
-              <p class="text-lg text-gray-600 mb-6">
-                La principal herramienta de trabajo es la Hipnosis Clínica o
-                Hipnoterapia Ericksoniana, disciplina multifacética que combina
-                principios neuro-psicofisiológicos con enfoques terapéuticos
-                innovadores.
-              </p>
-              <div
-                class="bg-white p-6 rounded-lg shadow-lg mb-6 border-l-4 border-primary"
-              >
-                <div class="flex items-start">
-                  <i class="fas fa-brain text-primary text-2xl mr-4 mt-1"></i>
-                  <div>
-                    <h4 class="text-xl font-semibold text-gray-800 mb-2">
-                      Modifica Estados de Conciencia
-                    </h4>
-                    <p class="text-gray-600">
-                      Optimiza el funcionamiento cerebral para resolver
-                      problemas y promover desarrollo personal.
-                    </p>
-                  </div>
+    <!-- Hipnosis Ericksoniana Section -->
+    <section class="py-20 bg-gray-100">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+            Hipnosis Ericksoniana: Nuestra Herramienta Principal
+          </h2>
+          <div class="w-24 h-1 bg-primary mx-auto"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div>
+            <p class="text-lg text-gray-600 mb-6">
+              La principal herramienta de trabajo es la Hipnosis Clínica o
+              Hipnoterapia Ericksoniana, disciplina multifacética que combina
+              principios neuro-psicofisiológicos con enfoques terapéuticos
+              innovadores.
+            </p>
+            <div class="bg-white p-6 rounded-lg shadow-lg mb-6 border-l-4 border-primary">
+              <div class="flex items-start">
+                <i class="fas fa-brain text-primary text-2xl mr-4 mt-1"></i>
+                <div>
+                  <h4 class="text-xl font-semibold text-gray-800 mb-2">
+                    Modifica Estados de Conciencia
+                  </h4>
+                  <p class="text-gray-600">
+                    Optimiza el funcionamiento cerebral para resolver
+                    problemas y promover desarrollo personal.
+                  </p>
                 </div>
               </div>
             </div>
-            <div>
-              <h3 class="text-2xl font-semibold text-gray-800 mb-4">
-                Beneficios del Enfoque Ericksoniano
-              </h3>
-              <ul class="space-y-3">
-                <li class="flex items-start">
-                  <i class="fas fa-leaf text-green-500 mr-3 mt-1"></i>
-                  <span class="text-gray-600"
-                    >Utilización de recursos naturales del paciente</span
-                  >
-                </li>
-                <li class="flex items-start">
-                  <i class="fas fa-handshake text-blue-500 mr-3 mt-1"></i>
-                  <span class="text-gray-600"
-                    >Colaboración activa entre terapeuta y paciente</span
-                  >
-                </li>
-                <li class="flex items-start">
-                  <i
-                    class="fas fa-expand-arrows-alt text-purple-500 mr-3 mt-1"
-                  ></i>
-                  <span class="text-gray-600">Marco flexible y adaptativo</span>
-                </li>
-                <li class="flex items-start">
-                  <i class="fas fa-heart text-red-500 mr-3 mt-1"></i>
-                  <span class="text-gray-600"
-                    >Maximiza el potencial humano</span
-                  >
-                </li>
-              </ul>
-            </div>
           </div>
-          <div class="text-center mt-12">
-            <p class="text-lg text-gray-600 italic">
-              "Gracias a la creciente evidencia científica sobre su impacto en
-              la actividad cerebral, la hipnosis sigue evolucionando como una
-              disciplina clave dentro de la psicoterapia moderna."
-            </p>
+          <div>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+              Beneficios del Enfoque Ericksoniano
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <i class="fas fa-leaf text-green-500 mr-3 mt-1"></i>
+                <span class="text-gray-600">Utilización de recursos naturales del paciente</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-handshake text-blue-500 mr-3 mt-1"></i>
+                <span class="text-gray-600">Colaboración activa entre terapeuta y paciente</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-expand-arrows-alt text-purple-500 mr-3 mt-1"></i>
+                <span class="text-gray-600">Marco flexible y adaptativo</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-heart text-red-500 mr-3 mt-1"></i>
+                <span class="text-gray-600">Maximiza el potencial humano</span>
+              </li>
+            </ul>
           </div>
         </div>
-      </section>
-
-      <!-- Introducción Section -->
-      <section class="py-20 bg-white">
-        <div class="container mx-auto px-6">
-          <div class="text-center mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-              ¿Cómo Funcionan las Sesiones?
-            </h2>
-            <div class="w-24 h-1 bg-primary mx-auto"></div>
-          </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <p class="text-lg text-gray-600 mb-6 leading-relaxed">
-                Las sesiones de hipnoterapia en línea funcionan de la misma
-                manera que la terapia presencial. Con más de nueve años de
-                experiencia en modalidad OnLine, he comprobado junto con mis
-                pacientes que los objetivos psicoterapéuticos se alcanzan al
-                100%.
-              </p>
-              <div class="bg-gray-100 p-6 rounded-lg border-l-4 border-primary">
-                <p class="text-gray-700 italic">
-                  "La efectividad de la hipnoterapia no depende de la
-                  localización; depende de la conexión entre terapeuta y
-                  paciente."
-                </p>
-              </div>
-            </div>
-            <div class="text-center">
-              <img
-                src="img/therapy-session.png"
-                alt="Sesión de hipnoterapia"
-                class="rounded-lg shadow-2xl w-64 md:max-w-md mx-auto"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Ventajas Section -->
-      <section class="py-20 bg-gradient-to-r from-gray-50 to-gray-100">
-        <div class="container mx-auto px-6">
-          <div class="text-center mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-              Ventajas de Trabajar en Línea
-            </h2>
-            <div class="w-24 h-1 bg-primary mx-auto"></div>
-          </div>
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div
-              class="text-center bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
-            >
-              <i class="fas fa-clock fa-3x text-primary mb-4"></i>
-              <h3 class="text-xl font-semibold text-gray-800 mb-4">
-                Ahorro de Tiempo
-              </h3>
-              <p class="text-gray-600">
-                Elimina desplazamientos y aprovecha mejor tu tiempo. Sesiones
-                desde cualquier lugar.
-              </p>
-            </div>
-            <div
-              class="text-center bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
-            >
-              <i class="fas fa-money-bill-wave fa-3x text-primary mb-4"></i>
-              <h3 class="text-xl font-semibold text-gray-800 mb-4">
-                Ahorro Económico
-              </h3>
-              <p class="text-gray-600">
-                Sin costos de transporte o desplazamiento. Inversión pura en tu
-                bienestar.
-              </p>
-            </div>
-            <div
-              class="text-center bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
-            >
-              <i class="fas fa-globe-americas fa-3x text-primary mb-4"></i>
-              <h3 class="text-xl font-semibold text-gray-800 mb-4">
-                Accesibilidad Mundial
-              </h3>
-              <p class="text-gray-600">
-                Disponible para pacientes en cualquier ciudad del país,
-                continente o el mundo.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Sesiones Section -->
-      <section class="py-20 bg-white">
-        <div class="container mx-auto px-6">
-          <div class="text-center mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-              Estructura de las Sesiones
-            </h2>
-            <div class="w-24 h-1 bg-primary mx-auto"></div>
-          </div>
-          <div class="bg-gray-50 p-8 rounded-lg max-w-4xl mx-auto">
-            <div class="text-center mb-8">
-              <i class="fas fa-clock fa-4x text-primary mb-4"></i>
-              <p class="text-2xl font-semibold text-gray-800 mb-4">
-                Sesiones Semanales
-              </p>
-              <p class="text-xl text-primary font-bold">1 Hora de Duración</p>
-            </div>
-            <p class="text-lg text-gray-600 text-center leading-relaxed">
-              Cada semana dedicamos tiempo de calidad para explorar, trabajar y
-              progresar en tu proceso terapéutico. Este ritmo garantiza avances
-              sólidos y sostenibles.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Etapas Section -->
-      <section class="py-20 bg-primary">
-        <div class="container mx-auto px-6">
-          <div class="text-center mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
-              Etapas del Proceso Terapéutico
-            </h2>
-            <div class="w-24 h-1 bg-white mx-auto"></div>
-          </div>
-          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
-            <div
-              class="text-center bg-white bg-opacity-20 backdrop-blur-sm p-6 rounded-lg text-white hover:bg-opacity-30 transition duration-300"
-            >
-              <i class="fas fa-search fa-3x mb-4"></i>
-              <h3 class="text-xl font-semibold mb-2">Diagnóstico</h3>
-              <p class="text-sm leading-relaxed">
-                Evaluación inicial para entender tu situación actual.
-              </p>
-            </div>
-            <div
-              class="text-center bg-white bg-opacity-20 backdrop-blur-sm p-6 rounded-lg text-white hover:bg-opacity-30 transition duration-300"
-            >
-              <i class="fas fa-lightbulb fa-3x mb-4"></i>
-              <h3 class="text-xl font-semibold mb-2">Diseño de Estrategia</h3>
-              <p class="text-sm leading-relaxed">
-                Plan personalizado adaptado a tus necesidades.
-              </p>
-            </div>
-            <div
-              class="text-center bg-white bg-opacity-20 backdrop-blur-sm p-6 rounded-lg text-white hover:bg-opacity-30 transition duration-300"
-            >
-              <i class="fas fa-bullseye fa-3x mb-4"></i>
-              <h3 class="text-xl font-semibold mb-2">Logro de Metas</h3>
-              <p class="text-sm leading-relaxed">
-                Trabajo enfocado en alcanzar tus objetivos terapéuticos.
-              </p>
-            </div>
-            <div
-              class="text-center bg-white bg-opacity-20 backdrop-blur-sm p-6 rounded-lg text-white hover:bg-opacity-30 transition duration-300"
-            >
-              <i class="fas fa-shield-alt fa-3x mb-4"></i>
-              <h3 class="text-xl font-semibold mb-2">Consolidación</h3>
-              <p class="text-sm leading-relaxed">
-                Refuerzo de los cambios para mantenerlos a largo plazo.
-              </p>
-            </div>
-            <div
-              class="text-center bg-white bg-opacity-20 backdrop-blur-sm p-6 rounded-lg text-white hover:bg-opacity-30 transition duration-300"
-            >
-              <i class="fas fa-handshake fa-3x mb-4"></i>
-              <h3 class="text-xl font-semibold mb-2">Cierre</h3>
-              <p class="text-sm leading-relaxed">
-                Finalización exitosa con confianza en tu autonomia.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Objetivos y Seguimiento -->
-      <section class="py-20 bg-white">
-        <div class="container mx-auto px-6">
-          <div class="text-center mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-              Objetivos y Seguimiento
-            </h2>
-            <div class="w-24 h-1 bg-primary mx-auto"></div>
-          </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div class="text-center">
-              <img
-                src="img/logro_metas.png"
-                alt="Logro de Metas"
-                class="rounded-lg shadow-2xl w-64 md:max-w-xs mx-auto"
-              />
-            </div>
-            <div>
-              <i class="fas fa-goals fa-4x text-primary mb-6"></i>
-              <h3 class="text-2xl font-semibold text-gray-800 mb-4">
-                Definición de Objetivos
-              </h3>
-              <p class="text-lg text-gray-600 mb-6">
-                Al inicio se establecen los Objetivos Terapéuticos que el
-                paciente desea alcanzar, los cuales se van evaluando
-                periódicamente para identificar sus avances.
-              </p>
-              <div class="flex items-center mb-4">
-                <i class="fas fa-check-circle text-green-500 mr-3"></i>
-                <span class="text-gray-700">Seguimiento semanal</span>
-              </div>
-              <div class="flex items-center mb-4">
-                <i class="fas fa-check-circle text-green-500 mr-3"></i>
-                <span class="text-gray-700"
-                  >Aplicación práctica en la vida cotidiana</span
-                >
-              </div>
-              <div class="flex items-center">
-                <i class="fas fa-check-circle text-green-500 mr-3"></i>
-                <span class="text-gray-700"
-                  >Ajustes constantes según progreso</span
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Call to Action -->
-      <section class="py-20 bg-primary text-white text-center">
-        <div class="container mx-auto px-6">
-          <h2 class="text-3xl md:text-4xl font-bold mb-6">
-            ¿Listo para Transformar tu Vida?
-          </h2>
-          <p class="text-xl mb-8 max-w-2xl mx-auto">
-            Comienza tu viaje hacia el bienestar emocional con mi método probado
-            de hipnoterapia en línea.
+        <div class="text-center mt-12">
+          <p class="text-lg text-gray-600 italic">
+            "Gracias a la creciente evidencia científica sobre su impacto en
+            la actividad cerebral, la hipnosis sigue evolucionando como una
+            disciplina clave dentro de la psicoterapia moderna."
           </p>
-          <a
-            href="index.html#contacto"
-            class="inline-block bg-white text-primary font-bold py-4 px-8 rounded-full hover:bg-gray-100 transition duration-300 transform hover:scale-105"
-          >
-            <i class="fas fa-envelope mr-2"></i> Agenda tu Primera Sesión
+        </div>
+      </div>
+    </section>
+
+    <!-- Introducción Section -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+            ¿Cómo Funcionan las Sesiones?
+          </h2>
+          <div class="w-24 h-1 bg-primary mx-auto"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div>
+            <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+              Las sesiones de hipnoterapia en línea funcionan de la misma
+              manera que la terapia presencial. Con más de nueve años de
+              experiencia en modalidad OnLine, he comprobado junto con mis
+              pacientes que los objetivos psicoterapéuticos se alcanzan al
+              100%.
+            </p>
+            <div class="bg-gray-100 p-6 rounded-lg border-l-4 border-primary">
+              <p class="text-gray-700 italic">
+                "La efectividad de la hipnoterapia no depende de la
+                localización; depende de la conexión entre terapeuta y
+                paciente."
+              </p>
+            </div>
+          </div>
+          <div class="text-center">
+            <img src="img/therapy-session.png" alt="Sesión de hipnoterapia"
+              class="rounded-lg shadow-2xl w-64 md:max-w-md mx-auto" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ventajas Section -->
+    <section class="py-20 bg-gradient-to-r from-gray-50 to-gray-100">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+            Ventajas de Trabajar en Línea
+          </h2>
+          <div class="w-24 h-1 bg-primary mx-auto"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="text-center bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+            <i class="fas fa-clock fa-3x text-primary mb-4"></i>
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">
+              Ahorro de Tiempo
+            </h3>
+            <p class="text-gray-600">
+              Elimina desplazamientos y aprovecha mejor tu tiempo. Sesiones
+              desde cualquier lugar.
+            </p>
+          </div>
+          <div class="text-center bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+            <i class="fas fa-money-bill-wave fa-3x text-primary mb-4"></i>
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">
+              Ahorro Económico
+            </h3>
+            <p class="text-gray-600">
+              Sin costos de transporte o desplazamiento. Inversión pura en tu
+              bienestar.
+            </p>
+          </div>
+          <div class="text-center bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+            <i class="fas fa-globe-americas fa-3x text-primary mb-4"></i>
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">
+              Accesibilidad Mundial
+            </h3>
+            <p class="text-gray-600">
+              Disponible para pacientes en cualquier ciudad del país,
+              continente o el mundo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sesiones Section -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+            Estructura de las Sesiones
+          </h2>
+          <div class="w-24 h-1 bg-primary mx-auto"></div>
+        </div>
+        <div class="bg-gray-50 p-8 rounded-lg max-w-4xl mx-auto">
+          <div class="text-center mb-8">
+            <i class="fas fa-clock fa-4x text-primary mb-4"></i>
+            <p class="text-2xl font-semibold text-gray-800 mb-4">
+              Sesiones Semanales
+            </p>
+            <p class="text-xl text-primary font-bold">1 Hora de Duración</p>
+          </div>
+          <p class="text-lg text-gray-600 text-center leading-relaxed">
+            Cada semana dedicamos tiempo de calidad para explorar, trabajar y
+            progresar en tu proceso terapéutico. Este ritmo garantiza avances
+            sólidos y sostenibles.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Etapas Section -->
+    <section class="py-20 bg-primary">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+            Etapas del Proceso Terapéutico
+          </h2>
+          <div class="w-24 h-1 bg-white mx-auto"></div>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+          <div
+            class="text-center bg-white bg-opacity-20 backdrop-blur-sm p-6 rounded-lg text-white hover:bg-opacity-30 transition duration-300">
+            <i class="fas fa-search fa-3x mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Diagnóstico</h3>
+            <p class="text-sm leading-relaxed">
+              Evaluación inicial para entender tu situación actual.
+            </p>
+          </div>
+          <div
+            class="text-center bg-white bg-opacity-20 backdrop-blur-sm p-6 rounded-lg text-white hover:bg-opacity-30 transition duration-300">
+            <i class="fas fa-lightbulb fa-3x mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Diseño de Estrategia</h3>
+            <p class="text-sm leading-relaxed">
+              Plan personalizado adaptado a tus necesidades.
+            </p>
+          </div>
+          <div
+            class="text-center bg-white bg-opacity-20 backdrop-blur-sm p-6 rounded-lg text-white hover:bg-opacity-30 transition duration-300">
+            <i class="fas fa-bullseye fa-3x mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Logro de Metas</h3>
+            <p class="text-sm leading-relaxed">
+              Trabajo enfocado en alcanzar tus objetivos terapéuticos.
+            </p>
+          </div>
+          <div
+            class="text-center bg-white bg-opacity-20 backdrop-blur-sm p-6 rounded-lg text-white hover:bg-opacity-30 transition duration-300">
+            <i class="fas fa-shield-alt fa-3x mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Consolidación</h3>
+            <p class="text-sm leading-relaxed">
+              Refuerzo de los cambios para mantenerlos a largo plazo.
+            </p>
+          </div>
+          <div
+            class="text-center bg-white bg-opacity-20 backdrop-blur-sm p-6 rounded-lg text-white hover:bg-opacity-30 transition duration-300">
+            <i class="fas fa-handshake fa-3x mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Cierre</h3>
+            <p class="text-sm leading-relaxed">
+              Finalización exitosa con confianza en tu autonomia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Objetivos y Seguimiento -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+            Objetivos y Seguimiento
+          </h2>
+          <div class="w-24 h-1 bg-primary mx-auto"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div class="text-center">
+            <img src="img/logro_metas.png" alt="Logro de Metas"
+              class="rounded-lg shadow-2xl w-64 md:max-w-xs mx-auto" />
+          </div>
+          <div>
+            <i class="fas fa-goals fa-4x text-primary mb-6"></i>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+              Definición de Objetivos
+            </h3>
+            <p class="text-lg text-gray-600 mb-6">
+              Al inicio se establecen los Objetivos Terapéuticos que el
+              paciente desea alcanzar, los cuales se van evaluando
+              periódicamente para identificar sus avances.
+            </p>
+            <div class="flex items-center mb-4">
+              <i class="fas fa-check-circle text-green-500 mr-3"></i>
+              <span class="text-gray-700">Seguimiento semanal</span>
+            </div>
+            <div class="flex items-center mb-4">
+              <i class="fas fa-check-circle text-green-500 mr-3"></i>
+              <span class="text-gray-700">Aplicación práctica en la vida cotidiana</span>
+            </div>
+            <div class="flex items-center">
+              <i class="fas fa-check-circle text-green-500 mr-3"></i>
+              <span class="text-gray-700">Ajustes constantes según progreso</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-20 bg-primary text-white text-center">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6">
+          ¿Listo para Transformar tu Vida?
+        </h2>
+        <p class="text-xl mb-8 max-w-2xl mx-auto">
+          Comienza tu viaje hacia el bienestar emocional con mi método probado
+          de hipnoterapia en línea.
+        </p>
+        <a href="index.html#contacto"
+          class="inline-block bg-white text-primary font-bold py-4 px-8 rounded-full hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+          <i class="fas fa-envelope mr-2"></i> Agenda tu Primera Sesión
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto px-6">
+      <div class="flex justify-between items-center mb-2">
+        <div class="flex items-center">
+          <img src="img/logo_pequeño.png" alt="Lizamarey" class="w-8 h-8 mx-2" />
+          <p style="font-family: 'Rouge Script', cursive; font-size: 2rem">
+            lizamarey
+          </p>
+        </div>
+        <div class="space-x-6 hidden md:flex">
+          <p>Supera tus límites y alcanza tu máximo potencial</p>
+        </div>
+        <div class="flex space-x-6">
+          <a href="https://api.whatsapp.com/send?phone=5651413823" target="_blank"
+            class="whatsapp-link hover:text-primary">
+            <i class="fab fa-whatsapp fa-lg"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/lizamarey/" target="_blank" class="hover:text-primary">
+            <i class="fab fa-linkedin fa-lg"></i>
+          </a>
+          <a href="mailto:elizabeth@lizamarey.com" class="hover:text-primary">
+            <i class="fa fa-envelope fa-lg"></i>
           </a>
         </div>
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-10">
-      <div class="container mx-auto px-6">
-        <div class="flex justify-between items-center mb-4">
-          <div class="flex items-center">
-            <img
-              src="img/logo_pequeño.png"
-              alt="Lizamarey"
-              class="w-8 h-8 mx-2"
-            />
-            <p style="font-family: 'Rouge Script', cursive; font-size: 2rem">
-              lizamarey
-            </p>
-          </div>
-          <div class="flex space-x-6">
-            <a
-              href="https://api.whatsapp.com/send?phone=5651413823"
-              target="_blank"
-              class="whatsapp-link hover:text-primary"
-            >
-              <i class="fab fa-whatsapp fa-lg"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/lizamarey/"
-              target="_blank"
-              class="hover:text-primary"
-            >
-              <i class="fab fa-linkedin fa-lg"></i>
-            </a>
-            <a href="mailto:elizabeth@lizamarey.com" class="hover:text-primary">
-              <i class="fa fa-envelope fa-lg"></i>
-            </a>
-          </div>
-        </div>
-        <hr class="w-full my-4 border-gray-600" />
-        <p class="text-center text-gray-400 text-xs">
-          &copy; 2025 Lizamarey. Todos los derechos reservados.
-        </p>
       </div>
-    </footer>
+      <hr class="w-full my-2 border-gray-600" />
+      <p class="text-center text-gray-400 text-xs">
+        &copy; 2025 Lizamarey. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
 
-    <!-- Modal for WhatsApp QR -->
-    <div
-      id="qr-modal"
-      class="fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50 hidden"
-    >
-      <div class="bg-white p-6 rounded-lg shadow-lg relative">
-        <div
-          class="absolute top-2 right-2 bg-primary rounded-full p-1 flex items-center justify-center cursor-pointer"
-        >
-          <img
-            src="img/close.png"
-            alt="Close"
-            class="w-3 h-3"
-            id="close-modal"
-          />
+  <!-- Modal for WhatsApp QR -->
+  <div id="qr-modal" class="fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50 hidden">
+    <div class="bg-white p-6 rounded-lg shadow-lg relative">
+      <div class="absolute top-2 right-2 bg-primary rounded-full p-1 flex items-center justify-center cursor-pointer">
+        <img src="img/close.png" alt="Close" class="w-3 h-3" id="close-modal" />
+      </div>
+      <div class="flex items-center justify-between">
+        <div class="flex-1 pr-4">
+          <h3 class="text-xl mx-auto">Escanear el código QR</h3>
         </div>
-        <div class="flex items-center justify-between">
-          <div class="flex-1 pr-4">
-            <h3 class="text-xl mx-auto">Escanear el código QR</h3>
-          </div>
-          <div id="qrcode" class="mx-2" style="max-width: 200px"></div>
-        </div>
+        <div id="qrcode" class="mx-2" style="max-width: 200px"></div>
       </div>
     </div>
+  </div>
 
-    <script src="js/main.js"></script>
-  </body>
+  <script src="js/main.js"></script>
+</body>
+
 </html>

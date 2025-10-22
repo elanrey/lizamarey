@@ -1,322 +1,243 @@
 <!DOCTYPE html>
 <html lang="es" style="overflow-x: hidden">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Descubre talleres de desarrollo personal con Elizabeth Reyes: manejo del estrés, inteligencia emocional, autoestima y crecimiento personal. Sesiones online grupales con hipnoterapia."
-    />
-    <meta property="og:title" content="Talleres - Lizamarey" />
-    <meta
-      property="og:description"
-      content="Descubre talleres de desarrollo personal con Elizabeth Reyes: manejo del estrés, inteligencia emocional, autoestima y crecimiento personal. Sesiones online grupales con hipnoterapia."
-    />
-    <meta property="og:image" content="img/logo.png" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="talleres.html" />
-    <title>Talleres - Lizamarey</title>
-    <link rel="icon" type="image/png" href="img/logo_mini.png" />
-    <link rel="stylesheet" href="css/tailwind.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-  </head>
-  <body class="bg-gray-100 text-gray-800 flex flex-col min-h-screen">
-    <!-- Header -->
-    <header id="header" class="fixed top-0 left-0 right-0 z-50 bg-primary">
-      <div
-        class="container mx-auto px-6 py-4 flex justify-between items-center"
-      >
-        <div class="flex items-center">
-          <img
-            src="img/logo_pequeño.png"
-            alt="Logo pequeño"
-            class="w-8 h-8 mr-3"
-          />
-          <a
-            href="index.html"
-            class="text-4xl font-bold text-white"
-            style="font-family: 'Rouge Script', cursive"
-            >lizamarey</a
-          >
-        </div>
-        <nav class="hidden md:flex space-x-8">
-          <a href="index.html#contacto" class="nav-link">Contacto</a>
-          <a href="metodo.html" class="nav-link">Método</a>
-          <a href="casos.html" class="nav-link">Casos</a>
-          <a href="testimonios.html" class="nav-link">Testimonios</a>
-          <a href="talleres.html" class="nav-link">Talleres</a>
-        </nav>
-        <button id="mobile-menu-button" class="md:hidden text-white">
-          <i class="fas fa-bars fa-lg"></i>
-        </button>
-      </div>
-      <!-- Mobile Menu -->
-      <div id="mobile-menu" class="hidden md:hidden bg-primary">
-        <a
-          href="index.html#contacto"
-          class="block py-2 px-4 text-sm text-white hover:bg-red-700"
-          >Contacto</a
-        >
-        <a
-          href="metodo.html"
-          class="block py-2 px-4 text-sm text-white hover:bg-red-700"
-          >Método</a
-        >
-        <a
-          href="casos.html"
-          class="block py-2 px-4 text-sm text-white hover:bg-red-700"
-          >Casos</a
-        >
-        <a
-          href="testimonios.html"
-          class="block py-2 px-4 text-sm text-white hover:bg-red-700"
-          >Testimonios</a
-        >
-        <a
-          href="talleres.html"
-          class="block py-2 px-4 text-sm text-white hover:bg-red-700"
-          >Talleres</a
-        >
-      </div>
-    </header>
 
-    <main class="flex-grow">
-      <!-- Hero Section -->
-      <section
-        class="relative h-80 md:h-96 bg-cover bg-center"
-        style="background-image: url('img/hero.jpg')"
-      >
-        <div
-          class="bg-black bg-opacity-50 h-full flex items-center justify-center pt-16 md:pt-0"
-        >
-          <div class="text-center text-white">
-            <h1
-              class="text-6xl md:text-8xl font-bold mb-4 mt-12"
-              style="
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Descubre talleres de desarrollo personal con Elizabeth Reyes: manejo del estrés, inteligencia emocional, autoestima y crecimiento personal. Sesiones online grupales con hipnoterapia." />
+  <meta property="og:title" content="Talleres - Lizamarey" />
+  <meta property="og:description"
+    content="Descubre talleres de desarrollo personal con Elizabeth Reyes: manejo del estrés, inteligencia emocional, autoestima y crecimiento personal. Sesiones online grupales con hipnoterapia." />
+  <meta property="og:image" content="img/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="talleres.html" />
+  <title>Talleres - Lizamarey</title>
+  <link rel="icon" type="image/png" href="img/logo_mini.png" />
+  <link rel="stylesheet" href="css/tailwind.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+
+<body class="bg-gray-100 text-gray-800 flex flex-col min-h-screen">
+  <!-- Header -->
+  <header id="header" class="fixed top-0 left-0 right-0 z-50 bg-primary">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center">
+        <img src="img/logo_pequeño.png" alt="Logo pequeño" class="w-8 h-8 mr-3" />
+        <a href="index.html" class="text-4xl font-bold text-white"
+          style="font-family: 'Rouge Script', cursive">lizamarey</a>
+      </div>
+      <nav class="hidden md:flex space-x-8">
+        <a href="index.html#contacto" class="nav-link">Contacto</a>
+        <a href="metodo.html" class="nav-link">Método</a>
+        <a href="casos.html" class="nav-link">Casos</a>
+        <a href="testimonios.html" class="nav-link">Testimonios</a>
+        <a href="talleres.html" class="nav-link">Talleres</a>
+      </nav>
+      <button id="mobile-menu-button" class="md:hidden text-white">
+        <i class="fas fa-bars fa-lg"></i>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-primary">
+      <a href="index.html#contacto" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Contacto</a>
+      <a href="metodo.html" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Método</a>
+      <a href="casos.html" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Casos</a>
+      <a href="testimonios.html" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Testimonios</a>
+      <a href="talleres.html" class="block py-2 px-4 text-sm text-white hover:bg-red-700">Talleres</a>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+    <!-- Hero Section -->
+    <section class="relative h-80 md:h-96 bg-cover bg-center" style="background-image: url('img/hero.jpg')">
+      <div class="bg-black bg-opacity-50 h-full flex items-center justify-center pt-16 md:pt-0">
+        <div class="text-center text-white">
+          <h1 class="text-6xl md:text-8xl font-bold mb-4 mt-12" style="
                 font-family: 'Tangerine', cursive;
                 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-              "
-            >
-              Talleres
-            </h1>
-            <p
-              class="text-base md:text-2xl font-light mb-4 mt-4"
-              style="
+              ">
+            Talleres
+          </h1>
+          <p class="text-base md:text-2xl font-light mb-4 mt-4" style="
                 text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
                 font-family: 'Open Sans', sans-serif;
-              "
-            >
-              Programas de formación
-            </p>
-            <div class="w-80 h-1 bg-primary mx-auto mb-6"></div>
-            <p
-              class="text-sm md:text-lg max-w-2xl mx-auto px-4"
-              style="text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8)"
-            >
-              Desarrolla habilidades a través de programas en grupo
-            </p>
-          </div>
+              ">
+            Programas de formación
+          </p>
+          <div class="w-80 h-1 bg-primary mx-auto mb-6"></div>
+          <p class="text-sm md:text-lg max-w-2xl mx-auto px-4" style="text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8)">
+            Desarrolla habilidades a través de programas en grupo
+          </p>
         </div>
-      </section>
-
-      <!-- Talleres Section -->
-      <section class="py-10 mt-8">
-        <div class="container mx-auto">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div
-              class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-primary hover:shadow-xl hover:transform hover:scale-105 transition duration-300"
-            >
-              <h2 class="text-2xl font-bold mb-2">
-                Mejora tu manejo del estrés
-              </h2>
-              <p class="text-gray-600 mb-4">
-                <strong>Objetivo:</strong> Brindar a los participantes las
-                herramientas necesarias para comprender el estrés, sus causas y
-                su impacto en la salud. A través de la identificación de su
-                propio nivel de estrés y la aplicación de técnicas de hipnosis
-                clínica y ejercicios de relajación, aprenderán a gestionarlo de
-                manera efectiva, reduciendo el desgaste físico y emocional y
-                promoviendo el bienestar integral.
-              </p>
-              <h3 class="text-xl font-bold mb-2">Temática:</h3>
-              <ul class="list-disc list-inside text-gray-600">
-                <li>¿Qué es el estrés?</li>
-                <li>Mecanismos de Alarma</li>
-                <li>¿Cómo manejas el estrés?</li>
-                <li>Aprendiendo a relajarme</li>
-              </ul>
-            </div>
-            <div
-              class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-primary hover:shadow-xl hover:transform hover:scale-105 transition duration-300"
-            >
-              <h2 class="text-2xl font-bold mb-2">
-                Desarrolla tu inteligencia emocional
-              </h2>
-              <p class="text-gray-600 mb-4">
-                <strong>Objetivo:</strong> Desarrollar habilidades de
-                inteligencia emocional que permitan reconocer, comprender y
-                gestionar las propias emociones de manera efectiva. A través del
-                autoconocimiento, fortalecer el bienestar personal y mejorar las
-                relaciones interpersonales, promoviendo una comunicación
-                asertiva y una mayor resiliencia emocional.
-              </p>
-              <h3 class="text-xl font-bold mb-2">Temática:</h3>
-              <ul class="list-disc list-inside text-gray-600">
-                <li>Inteligencia y emociones</li>
-                <li>¿Qué es la Inteligencia Emocional?</li>
-                <li>Autoconocimiento</li>
-                <li>Desarrollo de la Inteligencia Emocional</li>
-              </ul>
-            </div>
-            <div
-              class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-primary hover:shadow-xl hover:transform hover:scale-105 transition duration-300"
-            >
-              <h2 class="text-2xl font-bold mb-2">Autoestima</h2>
-              <p class="text-gray-600 mb-4">
-                <strong>Objetivo:</strong> Comprender los elementos que
-                conforman la autoestima, reconocer su impacto en la vida diaria
-                y evaluar el nivel de autoestima personal. A través del
-                autoconocimiento, desarrollar estrategias para fortalecer la
-                autoestima, promoviendo una actitud asertiva y un mayor
-                bienestar emocional.
-              </p>
-              <h3 class="text-xl font-bold mb-2">Temática:</h3>
-              <ul class="list-disc list-inside text-gray-600">
-                <li>Autoestima alta y baja: características e impacto</li>
-                <li>Los pilares fundamentales de la autoestima</li>
-                <li>Estrategias para fortalecer la autoestima</li>
-                <li>Asertividad, autorrealización y éxito</li>
-              </ul>
-            </div>
-            <div
-              class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-primary hover:shadow-xl hover:transform hover:scale-105 transition duration-300"
-            >
-              <h2 class="text-2xl font-bold mb-2">
-                Autoconocimiento y Crecimiento Personal
-              </h2>
-              <p class="text-gray-600 mb-4">
-                <strong>Objetivo:</strong> Facilitar un proceso de
-                autoconocimiento que permita identificar fortalezas, áreas de
-                mejora y creencias personales, fomentando el desarrollo de una
-                mayor seguridad y bienestar. A través de la reflexión y el
-                crecimiento personal, potenciar habilidades para una vida más
-                plena y equilibrada.
-              </p>
-              <h3 class="text-xl font-bold mb-2">Temática:</h3>
-              <ul class="list-disc list-inside text-gray-600">
-                <li>¿Quien soy yo?</li>
-                <li>Importancia del autoconocimiento</li>
-                <li>Logros, fracasos y aprendizajes</li>
-                <li>Renuévate, reinventa tu nuevo yo</li>
-              </ul>
-            </div>
-            <div
-              class="bg-white p-6 rounded-lg shadow-lg md:col-span-2 border-l-4 border-primary hover:shadow-xl transition duration-300"
-            >
-              <h2 class="text-2xl font-bold mb-2">
-                Características de los Talleres
-              </h2>
-              <ul class="list-disc list-inside text-gray-600">
-                <li>Talleres Online.</li>
-                <li>Incluyen teoría y ejercicios de hipnosis.</li>
-                <li>Duración de 10 horas, en sesiones de 2 horas.</li>
-                <li>Grupos de 8 personas.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-10">
-      <div class="container mx-auto px-6">
-        <div class="flex justify-between items-center mb-4">
-          <div class="flex items-center">
-            <img
-              src="img/logo_pequeño.png"
-              alt="Lizamarey"
-              class="w-8 h-8 mx-2"
-            />
-            <p style="font-family: 'Rouge Script', cursive; font-size: 2rem">
-              lizamarey
-            </p>
-          </div>
-          <div class="flex space-x-6">
-            <a
-              href="https://api.whatsapp.com/send?phone=5651413823"
-              target="_blank"
-              class="whatsapp-link hover:text-primary"
-            >
-              <i class="fab fa-whatsapp fa-lg"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/lizamarey/"
-              target="_blank"
-              class="hover:text-primary"
-            >
-              <i class="fab fa-linkedin fa-lg"></i>
-            </a>
-            <a href="mailto:elizabeth@lizamarey.com" class="hover:text-primary">
-              <i class="fa fa-envelope fa-lg"></i>
-            </a>
-          </div>
-        </div>
-        <hr class="w-full my-4 border-gray-600" />
-        <p class="text-center text-gray-400 text-xs">
-          &copy; 2025 Lizamarey. Todos los derechos reservados.
-        </p>
       </div>
-    </footer>
+    </section>
 
-    <!-- Modal for WhatsApp QR -->
-    <div
-      id="qr-modal"
-      class="fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50 hidden"
-    >
-      <div class="bg-white p-6 rounded-lg shadow-lg relative">
-        <div
-          class="absolute top-2 right-2 bg-primary rounded-full p-1 flex items-center justify-center cursor-pointer"
-        >
-          <img
-            src="img/close.png"
-            alt="Close"
-            class="w-4 h-4"
-            id="close-modal"
-          />
-        </div>
-        <div class="flex items-center justify-between">
-          <div class="flex-1 pr-4">
-            <h3 class="text-xl font-bold mb-2">
-              Escanear Código QR para WhatsApp
-            </h3>
-            <p class="text-gray-600">
-              Abre WhatsApp y escanea el código QR para contactarme
-              directamente.
+    <!-- Talleres Section -->
+    <section class="py-10 mt-8">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-primary hover:shadow-xl hover:transform hover:scale-105 transition duration-300">
+            <h2 class="text-2xl font-bold mb-2">
+              Mejora tu manejo del estrés
+            </h2>
+            <p class="text-gray-600 mb-4">
+              <strong>Objetivo:</strong> Brindar a los participantes las
+              herramientas necesarias para comprender el estrés, sus causas y
+              su impacto en la salud. A través de la identificación de su
+              propio nivel de estrés y la aplicación de técnicas de hipnosis
+              clínica y ejercicios de relajación, aprenderán a gestionarlo de
+              manera efectiva, reduciendo el desgaste físico y emocional y
+              promoviendo el bienestar integral.
             </p>
+            <h3 class="text-xl font-bold mb-2">Temática:</h3>
+            <ul class="list-disc list-inside text-gray-600">
+              <li>¿Qué es el estrés?</li>
+              <li>Mecanismos de Alarma</li>
+              <li>¿Cómo manejas el estrés?</li>
+              <li>Aprendiendo a relajarme</li>
+            </ul>
           </div>
-          <div id="qrcode" style="max-width: 200px"></div>
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-primary hover:shadow-xl hover:transform hover:scale-105 transition duration-300">
+            <h2 class="text-2xl font-bold mb-2">
+              Desarrolla tu inteligencia emocional
+            </h2>
+            <p class="text-gray-600 mb-4">
+              <strong>Objetivo:</strong> Desarrollar habilidades de
+              inteligencia emocional que permitan reconocer, comprender y
+              gestionar las propias emociones de manera efectiva. A través del
+              autoconocimiento, fortalecer el bienestar personal y mejorar las
+              relaciones interpersonales, promoviendo una comunicación
+              asertiva y una mayor resiliencia emocional.
+            </p>
+            <h3 class="text-xl font-bold mb-2">Temática:</h3>
+            <ul class="list-disc list-inside text-gray-600">
+              <li>Inteligencia y emociones</li>
+              <li>¿Qué es la Inteligencia Emocional?</li>
+              <li>Autoconocimiento</li>
+              <li>Desarrollo de la Inteligencia Emocional</li>
+            </ul>
+          </div>
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-primary hover:shadow-xl hover:transform hover:scale-105 transition duration-300">
+            <h2 class="text-2xl font-bold mb-2">Autoestima</h2>
+            <p class="text-gray-600 mb-4">
+              <strong>Objetivo:</strong> Comprender los elementos que
+              conforman la autoestima, reconocer su impacto en la vida diaria
+              y evaluar el nivel de autoestima personal. A través del
+              autoconocimiento, desarrollar estrategias para fortalecer la
+              autoestima, promoviendo una actitud asertiva y un mayor
+              bienestar emocional.
+            </p>
+            <h3 class="text-xl font-bold mb-2">Temática:</h3>
+            <ul class="list-disc list-inside text-gray-600">
+              <li>Autoestima alta y baja: características e impacto</li>
+              <li>Los pilares fundamentales de la autoestima</li>
+              <li>Estrategias para fortalecer la autoestima</li>
+              <li>Asertividad, autorrealización y éxito</li>
+            </ul>
+          </div>
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-primary hover:shadow-xl hover:transform hover:scale-105 transition duration-300">
+            <h2 class="text-2xl font-bold mb-2">
+              Autoconocimiento y Crecimiento Personal
+            </h2>
+            <p class="text-gray-600 mb-4">
+              <strong>Objetivo:</strong> Facilitar un proceso de
+              autoconocimiento que permita identificar fortalezas, áreas de
+              mejora y creencias personales, fomentando el desarrollo de una
+              mayor seguridad y bienestar. A través de la reflexión y el
+              crecimiento personal, potenciar habilidades para una vida más
+              plena y equilibrada.
+            </p>
+            <h3 class="text-xl font-bold mb-2">Temática:</h3>
+            <ul class="list-disc list-inside text-gray-600">
+              <li>¿Quien soy yo?</li>
+              <li>Importancia del autoconocimiento</li>
+              <li>Logros, fracasos y aprendizajes</li>
+              <li>Renuévate, reinventa tu nuevo yo</li>
+            </ul>
+          </div>
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg md:col-span-2 border-l-4 border-primary hover:shadow-xl transition duration-300">
+            <h2 class="text-2xl font-bold mb-2">
+              Características de los Talleres
+            </h2>
+            <ul class="list-disc list-inside text-gray-600">
+              <li>Talleres Online.</li>
+              <li>Incluyen teoría y ejercicios de hipnosis.</li>
+              <li>Duración de 10 horas, en sesiones de 2 horas.</li>
+              <li>Grupos de 8 personas.</li>
+            </ul>
+          </div>
         </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto px-6">
+      <div class="flex justify-between items-center mb-2">
+        <div class="flex items-center">
+          <img src="img/logo_pequeño.png" alt="Lizamarey" class="w-8 h-8 mx-2" />
+          <p style="font-family: 'Rouge Script', cursive; font-size: 2rem">
+            lizamarey
+          </p>
+        </div>
+        <div class="space-x-6 hidden md:flex">
+          <p>Supera tus límites y alcanza tu máximo potencial</p>
+        </div>
+        <div class="flex space-x-6">
+          <a href="https://api.whatsapp.com/send?phone=5651413823" target="_blank"
+            class="whatsapp-link hover:text-primary">
+            <i class="fab fa-whatsapp fa-lg"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/lizamarey/" target="_blank" class="hover:text-primary">
+            <i class="fab fa-linkedin fa-lg"></i>
+          </a>
+          <a href="mailto:elizabeth@lizamarey.com" class="hover:text-primary">
+            <i class="fa fa-envelope fa-lg"></i>
+          </a>
+        </div>
+      </div>
+      <hr class="w-full my-2 border-gray-600" />
+      <p class="text-center text-gray-400 text-xs">
+        &copy; 2025 Lizamarey. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Modal for WhatsApp QR -->
+  <div id="qr-modal" class="fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50 hidden">
+    <div class="bg-white p-6 rounded-lg shadow-lg relative">
+      <div class="absolute top-2 right-2 bg-primary rounded-full p-1 flex items-center justify-center cursor-pointer">
+        <img src="img/close.png" alt="Close" class="w-4 h-4" id="close-modal" />
+      </div>
+      <div class="flex items-center justify-between">
+        <div class="flex-1 pr-4">
+          <h3 class="text-xl font-bold mb-2">
+            Escanear Código QR para WhatsApp
+          </h3>
+          <p class="text-gray-600">
+            Abre WhatsApp y escanea el código QR para contactarme
+            directamente.
+          </p>
+        </div>
+        <div id="qrcode" style="max-width: 200px"></div>
       </div>
     </div>
+  </div>
 
-    <script src="js/main.js"></script>
-  </body>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
